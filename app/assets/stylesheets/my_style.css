@@ -1,0 +1,16 @@
+.sign_in, .sign_up {
+	text-align: center;
+	height: 300px;
+	width: 450px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius:25px;
+    color:#000000;
+    background:#bbbbff;
+    overflow:hidden;
+     -webkit-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+     -moz-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+     box-shadow:0 10px 10px rgba(0,0,0,0.3), -10px 10px 10px rgba(0,0,0,0.2);
+}
+
+//background-image:url('paper.gif');

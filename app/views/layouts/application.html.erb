@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
 
           </button>
-          <a class="navbar-brand" href="#">Site Name</a>
+          <a class="navbar-brand" href="#">Online Personal Diary</a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -26,13 +26,27 @@
             <li><a href="#showcase">Showcase</a></li>
             <li><a href="#help">Help</a></li>
             <li><a href="#my account">My Account</a></li>
-            <li><a href="#cart">Cart <span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+            <li><a href="#cart">Cart <span class="glyphicon glyphicon-asterisk"></span></a></li>
           </ul>
         </div>
       </div>
   </div>
-<br/>
-<br/>
+
+<div class="container-fluid">
+	<div class="jumbotron">
+    	<h3>Personal Diary on your Mobile</h3>
+    	<a class="btn btn-primary btn-lg">Download Now!</a>
+	</div>
+</div>
+        <div id="user_nav">
+          <% if user_signed_in? %>
+            Signed in as <%= current_user.email %>. Not you?
+            <%= link_to "Sign out", destroy_user_session_path, :method => 'delete' %>
+          <% else %>
+            <%= link_to "Sign up", new_user_registration_path %> or
+            <%= link_to "Sign in", new_user_session_path %>
+          <% end %>
+        </div>
 <%= yield %>
 
 </body>

@@ -4488,6 +4488,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-brand {
   float: left;
+  font-weight: bold;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
@@ -5226,17 +5228,17 @@ a.list-group-item.active > .badge,
 
 .jumbotron {
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #000000;
 }
 
-.jumbotron h1 {
+.jumbotron h3 {
   line-height: 1;
-  color: inherit;
+  color: white;
 }
 
 .jumbotron p {
