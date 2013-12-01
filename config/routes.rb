@@ -1,10 +1,11 @@
 Diary::Application.routes.draw do
-  devise_for :users
-  resources :locations
   
-  get "welcome/index"
+  devise_for :users
 
-  root "welcome#index"
+  root to: "welcome#index"
+
+  resources :locations
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
