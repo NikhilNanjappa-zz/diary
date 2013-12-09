@@ -14,11 +14,44 @@
 }
 
 body {
-	background-image:url('colorful-ubuntu-HD.jpg');
+	background-image:url('stripes1.jpg');
 }
-<<<<<<< HEAD
 
-//http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=51.5303972%2C-0.1238579
-=======
-// 
->>>>>>> 602248376d5b38d474b6c987e532a66dc21f3d5e
+.glass {
+	text-align: center;
+	height: 300px;
+	width: 450px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius:25px;
+    color:#ffffff;
+    background: transparent;
+    overflow:hidden;
+    position: relative;
+}
+
+.glass:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 0;
+    -webkit-background-origin: border-box;
+    -moz-background-origin: border;
+    background-origin: border-box;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .25))), -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.5, rgba(255, 255, 255, .15)), color-stop(0.501, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0)));
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), -moz-linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+    background: linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+}
+
+.blue textarea:focus,
+.blue input[type="email"]:focus{
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
