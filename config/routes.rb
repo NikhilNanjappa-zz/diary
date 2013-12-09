@@ -2,10 +2,7 @@ Diary::Application.routes.draw do
   
   devise_for :users
 
-<<<<<<< HEAD
   root to: "welcome#index"
-=======
->>>>>>> 3ab4b21f67e7a685fcbebe14d165c92458879058
 
   resources :locations
 
