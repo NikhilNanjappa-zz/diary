@@ -10,5 +10,6 @@
  *
  *= require_self
  *= my_style
+ *= styles
  *= require_tree .
  */
