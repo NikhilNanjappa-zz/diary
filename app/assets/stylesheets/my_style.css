@@ -11,12 +11,7 @@
      -moz-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
      box-shadow:0 10px 10px rgba(0,0,0,0.3), -10px 10px 10px rgba(0,0,0,0.2);
 }
-
-body {
-  background-color: white;
-	/* background-image:url('stripes1.jpg'); */
-}
-
+  
 .blue textarea:focus,
 .blue input[type="email"]:focus{
   border-color: rgba(82, 168, 236, 0.8);
