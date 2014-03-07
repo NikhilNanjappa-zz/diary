@@ -11,5 +11,6 @@
  *= require_self
  *= my_style
  *= styles
+ *= zombie
  *= require_tree .
  */
