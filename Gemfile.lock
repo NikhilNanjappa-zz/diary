@@ -58,6 +58,7 @@ GEM
     multi_json (1.8.2)
     mysql2 (0.3.14)
     nifty-generators (0.4.6)
+    pg (0.17.1)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -120,6 +121,7 @@ DEPENDENCIES
   mocha
   mysql2
   nifty-generators
+  pg
   rails (= 4.0.0)
   sass-rails (~> 4.0.0)
   sdoc
